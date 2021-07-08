@@ -883,7 +883,7 @@ label {
 	cursor: pointer;
 }
 .cross:hover{
-	color: rgb(164,15,112);
+	color: rgb(164,15,112)	;
 }
 .off-menu-top .balance-personal {
 	margin-left: 13px;
