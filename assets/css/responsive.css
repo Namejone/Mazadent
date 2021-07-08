@@ -2,15 +2,336 @@
     .single-banner-sldier img {
         height: 580px;
     }
+    .product-card-footer ul li {
+        font-size: 15px;
+    }
+    .inner-hover {
+        width: 237px;
+    }
 }
 
-@media (max-width: 1199px) {  }
+@media (max-width: 1199px) {
+    body{
+        font-size: 15px;
+    }
+    .how-works-text {
+        margin-right: 0px;
+    }
+    .balance-personal {
+        margin-left: 15px;
+        font-size: 15px;
+        padding: 9px 15px;
+    }
+    .menu-right ul li a {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .main-menu ul li {
+        padding: 10px 14px;
+    }
+    .flug-img {
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    .menu-right::after {
+        width: 1.4px;
+        height: 62%;
+    }
+    .main-menu ul li.arabic-text a {
+        font-size: 15px;
+    }
+    .main-menu ul li > ul.submenu {
+        padding: 25px 22px;
+    }
+    .main-menu ul li > ul.submenu > li > a {
+        font-size: 15px;
+    }
+    .card-wrapper {
+        padding: 15px;
+    }
+    .product-id {
+        left: -15px;
+        height: 26px;
+        padding: 0px 15px;
+    }
+    .product-card-header h5 {
+        font-size: 16px;
+    }
+    .inner-hover {
+        width: 200px;
+    }
+    .product-card-footer ul li {
+        font-size: 13px;
+    }
+    .product-card-image {
+        min-height: 210px;
+    }
+    .product-card-price h5 {
+        font-size: 16px;
+    }
+    .footer-logo-area {
+        margin: 0px 15px;
+    }
 
-@media (min-width: 991px) {  }
 
-@media (min-width: 767px) {  }
 
-@media (min-width: 575px) {  }
+
+}
+
+@media (max-width: 991px) { 
+    .banner-sldie-active .owl-nav div {
+        width: 60px;
+        font-size: 40px;
+    }
+    .product-card-footer ul li {
+        font-size: 15px;
+    }
+    .product-card-header h5 {
+        font-size: 18px;
+    }
+
+    .sold-product-badge {
+        min-width: 403px;
+    }
+    .product-card-price h5 {
+        font-size: 18px;
+    }
+    .footer-logo-area {
+        margin-bottom: 45px;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+
+
+    /* popup-css */
+    .welcome-text-wrap {
+        padding: 0px 25px;
+    }   
+    .popup-form-wrapper {
+        padding: 35px 30px;
+        padding-left: 50px;
+    }
+    .popup-1.popup-sign-in .modal-dialog {
+        max-width: 95%;
+    }
+    .single-form input {
+        padding-left: 19px;
+    }
+    .submit-btn-area {
+        margin-top: 20px;
+    }
+    .popup-1 .modal-dialog {
+        max-width: 95%;
+    }
+    .otp-wrapper form input {
+        width: 58px;
+        height: 62px;
+    }
+
+
+    /* popup-css_end */
+
+
+}
+
+@media (max-width: 767px) { 
+    .header-area {
+        height: 60px;
+        margin-bottom: 0px;
+    }
+    .single-banner-sldier img {
+        height: 362px;
+    }
+    .banner-sldie-active {
+        margin-bottom: 38px;
+    }
+    .banner-sldie-active .owl-dots div {
+        height: 13px;
+        width: 13px;
+    }
+    .banner-sldie-active .owl-dots {
+        bottom: -31px;
+    }
+    .banner-sldie-active .owl-nav div {
+        width: 40px;
+        font-size: 32px;
+    }
+    .video-area-wrapper {
+        flex-wrap: wrap;
+    }
+    .video-area {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 331px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .how-works-area {
+        padding: 40px 0px;
+    }
+    .card-title-area a {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .card-title-area span.colored-box {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+    .card-title-area h2 {
+        font-size: 23px;
+    }
+    .card-main-wrapper {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .product-card-price h5 {
+        font-size: 13px;
+    }
+    .product-card-price p {
+        font-size: 13px;
+    }
+    .product-card-price h2 {
+        font-size: 20px;
+    }
+    .card-wrapper {
+        margin-bottom: 33px;
+    }
+    .sold-product-badge {
+        height: 50px;
+        font-size: 23px;
+    }
+    .how-works-text {
+        max-width: 331px;
+    }
+    .video-area-wrapper {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        text-align: center;
+    }
+    /* popup-css */
+    .welcome-text-wrapper {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .welcome-text-wrap h1 {
+        padding-bottom: 7px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .welcome-text-wrap p {
+        margin-bottom: 8px;
+    }
+    .popup-logo img {
+        display: inline-block;
+        margin-top: 5px;
+        width: 43px;
+    }
+    .popup-form-wrapper {
+        padding: 20px 20px;
+        padding-left: 40px;
+        width: 100%;
+    }
+    .single-form span.input-icon img {
+        width: 16px;
+        max-height: 18px;
+    }
+    .single-form input {
+        height: 40px;
+        font-size: 15px;
+    }
+    .btn.submit-btn {
+        width: 165px;
+        height: 44px;
+        font-size: 17px;
+        border-radius: 60px;
+    }
+    .popup-bottom-text p {
+        margin-bottom: 4px;
+    }
+    .popup-bottom-text {
+        margin-top: 12px;
+    }
+    .popup-bottom-text p {
+        font-size: 13px;
+    }
+    .otp-wrapper form input {
+        width: 52px;
+        height: 58px;
+        border-radius: 18px;
+    }
+    .popup-1 .modal-dialog {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .inner-hover a {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 575px) { 
+    .card-wrapper {
+        padding: 14px 8px;
+    }
+    .product-id {
+        left: -8px;
+        height: 24px;
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+    .hover-right-items a, .hover-right-items span {
+        height: 28px;
+        width: 28px;
+    }
+    .hover-right-items a img, .hover-right-items span img {
+        width: 56%;
+    }
+    .product-card-header h5 {
+        font-size: 13px;
+    }
+    .product-card-image {
+        min-height: 180px;
+    }
+    .product-card-footer ul li {
+        font-size: 11px;
+        font-weight: normal;
+    }
+    .live-action h3 {
+        font-size: 20px;
+    }
+    .btn.light-redbtn {
+        font-size: 18px;
+        padding: 7px 10px;
+        margin-top: 5px;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 13px 15px;
+    }
+    .btn.product-btn-1 {
+        margin-top: 0px;
+        width: 100%;
+        height: 38px;
+        padding: 10px 15px;
+    }
+    .product-card-image > img {
+        height: 125px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .product-id {
+        width: max-content;
+    }
+    .inner-hover {
+        width: 145px;
+        padding: 10px;
+    }
+
+}
 
 
 
