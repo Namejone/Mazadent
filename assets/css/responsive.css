@@ -1,4 +1,4 @@
-@media (max-width: 1500px) { 
+@media (max-width: 1400px) { 
     .single-banner-sldier img {
         height: 580px;
     }
@@ -17,17 +17,37 @@
     .how-works-text {
         margin-right: 0px;
     }
-    .balance-personal {
-        margin-left: 15px;
-        font-size: 15px;
-        padding: 9px 15px;
+    .main-menu ul li.has-dropdown {
+        padding: 10px 16px;
     }
     .menu-right ul li a {
         margin-left: 15px;
         font-size: 15px;
     }
     .main-menu ul li {
-        padding: 10px 14px;
+        padding: 10px 12px;
+    }
+    .main-menu ul li.has-dropdown::after {
+        right: -3px;
+        top: 19px;
+    }
+    .header-area.home-v2 .menu-right {
+        margin-left: 0px;
+    }
+    .header-area.home-v2 .main-menu ul li.has-dropdown {
+        padding: 10px 18px;
+    }
+    .header-area.home-v2 .main-menu ul li.has-dropdown::after {
+        right: 1px;
+        top: 19px;
+    }
+    .balance-personal {
+        margin-left: 15px;
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+    .main-menu ul li.has-dropdown {
+        padding: 10px 12px;
     }
     .flug-img {
         width: 30px;
@@ -319,7 +339,6 @@
     }
     .product-card-image > img {
         height: 125px;
-        width: 100%;
         object-fit: cover;
         object-position: center;
     }
@@ -329,6 +348,16 @@
     .inner-hover {
         width: 145px;
         padding: 10px;
+    }
+    .popup-1 .modal-dialog .modal-content {
+        box-shadow: 0px 0px 5px rgba(0,0,0,.11);
+    }
+    .single-card-wrap-main > .row > .col-6 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .inner-hover p {
+        font-size: 12px;
     }
 
 }
