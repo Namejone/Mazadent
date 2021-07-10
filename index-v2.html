@@ -38,10 +38,13 @@
         </div>
 
         <div class="off-menu-top">
-                <ul class="d-flex align-items-center">
-                    <li class=""><a class="balance-personal" href="" data-bs-toggle="modal" data-bs-target="#exampleModalregister">Sign in/Register</a></li>
-                    <li class="flug-img"><img src="assets/img/flug.svg" alt=""></li>
-                </ul>
+            <ul class="d-flex align-items-center">
+                <li class="balance-personal"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModalsignin">Sign in</a>/ <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModalregister">Register</a></li>
+                
+            </ul>    
+        </div>
+        <div class="flug-img mt-3">
+            <img src="assets/img/flug.svg" alt="">
         </div>
 
     </div>
@@ -83,7 +86,7 @@
                     <!-- mwnu-right-area -->
                     <div class="menu-right d-none d-lg-block position-relative">
                         <ul class="d-flex align-items-center">
-                            <li><a class="balance-personal" href="" data-bs-toggle="modal" data-bs-target="#exampleModalregister">Sign in/Register</a></li>
+                            <li class="balance-personal"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModalsignin">Sign in</a>/ <a href="" data-bs-toggle="modal" data-bs-target="#exampleModalregister">Register</a></li>
                             <li class="flug-img"><img src="assets/img/flug.svg" alt=""></li>
                         </ul>
                     </div>
@@ -1069,7 +1072,7 @@
                             <!-- single-input -->
                             <div class="single-form position-relative">
                                 <input type="password" placeholder="Password">
-                                <span class="input-icon"><img src="assets/img/envelope.svg" alt=""></span>
+                                <span class="input-icon"><img src="assets/img/password.svg" alt=""></span>
                             </div>
                             <!-- single-input -->
 
@@ -1077,6 +1080,7 @@
                                 <input type="checkbox" id="check-1">
                                 <label for="check-1"><span></span>Remember Me</label>
                             </div>
+
                             <div class="submit-btn-area text-center">
                                 <button class="btn submit-btn">Sign In</button>
                             </div>
@@ -1086,7 +1090,7 @@
 
                         <div class="popup-bottom-text">
                             <p>New to Mazadent ? <a href="">Sign Up</a> </p>
-                            <p><a href="">Forgot Your Password ? </a></p>
+                            <p>Forgot Your Password ?</p>
                         </div>
 
                     </div>
@@ -1161,10 +1165,6 @@
                             <!-- single-input -->
 
 
-                            <div class="custom-check-box">
-                                <input type="checkbox" id="check-2">
-                                <label for="check-2"><span></span>Remember Me</label>
-                            </div>
                             <div class="submit-btn-area text-center">
                                 <button class="btn submit-btn">Register</button>
                             </div>
@@ -1230,7 +1230,7 @@
 
                         <div class="popup-bottom-text">
                             <p>Didn't get a code ? <a href="">Resend Code</a> </p>
-                            <p><a href="">Change Phone number </a></p>
+                            <p>Change Phone number</p>
                         </div>  
 
                     </div>
@@ -1245,9 +1245,13 @@
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
+        $("header").sticky({topSpacing:0});
+
+
         $('.digit-group').find('input').each(function() {
         $(this).attr('maxlength', 1);
         $(this).on('keyup', function(e) {

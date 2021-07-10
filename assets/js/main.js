@@ -5,7 +5,7 @@
         $(".offcanvas-wrapper, .overlay").addClass("active");
     });
 
-    $(".cross, .overlay").click(function(){
+    $(".cross, .overlay, .off-menu-top .balance-personal").click(function(){
         $(".offcanvas-wrapper, .overlay").removeClass("active");
     });
 
@@ -20,7 +20,7 @@
         loop:true,
         margin:0,
         items:1,
-        navText:['<i class="fal fa-angle-left"></i>','<i class="fal fa-angle-right"></i>'],
+        navText:['<img src="assets/img/arrow-left-slifde.png" alt="">','<img src="assets/img/arrow-right-slide.png" alt="">'],
         nav:true,
         dots:true,
     });
