@@ -153,7 +153,20 @@
     .popup-sign-in .popup-form-wrapper {
         padding-left: 73px;
     }
-
+    .inner-hover.mobo-hover-left-top{
+        transform: translateX(-60%);
+        -webkit-transform: translateX(-60%);
+        -moz-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+        -o-transform: translateX(-60%);
+    }
+    .inner-hover.inner-hover-center.mobo-hover-left{
+        transform: translate(-60%, -50%);
+        -webkit-transform: translate(-60%, -50%);
+        -moz-transform: translate(-60%, -50%);
+        -ms-transform: translate(-60%, -50%);
+        -o-transform: translate(-60%, -50%);
+    }
 }
 
 @media (max-width: 767px) { 
@@ -295,6 +308,16 @@
     .popup-sign-in .input-icon {
         right: 101.5%;
     }
+    .inner-hover.mobo-hover-left,
+    .inner-hover.inner-hover-center.mobo-hover-left{
+        transform: translateX(-60%);
+        -webkit-transform: translateX(-60%);
+        -moz-transform: translateX(-60%);
+        -ms-transform: translateX(-60%);
+        -o-transform: translateX(-60%);
+    }
+
+
 }
 
 @media (max-width: 575px) { 

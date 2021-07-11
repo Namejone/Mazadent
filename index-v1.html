@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Document</title>
+    <title>Mazadent | Online dental Auction</title>
 
 
     <!-- css Here -->
@@ -22,29 +22,44 @@
     <!-- offcanvas-menu -->
     <div class="offcanvas-wrapper">
        <span class="cross"><i class="fal fa-times"></i></span>
+
+        <div class="off-menu-top">
+            <ul class="d-flex align-items-center">
+                <li><a href="">Drmoth42</a></li>
+                <li class="balance-personal">Balance: 999</li>
+            </ul>
+        </div>
+
         <div class="off-menu">
             <ul>
-                <li class="has-dropdown"><a href="">Auctions</a></li>
-                <li class="has-dropdown active"><a href="javascript:viod(0);">How Mazadent Works</a>
-                    <ul id="submenu" class="submenu">
+                <li class="has-dropdown"><a class="collapsed" data-bs-toggle="collapse" href="#submenu">Auctions</a>
+                    <ul id="submenu" class="submenu collapse">
                         <li><a href="">Seat Auction Guide</a></li>
                         <li><a href="">Ranks Guide</a></li>
                         <li><a href="">Point System Guide</a></li>
                     </ul>
                 </li>
-                <li><a href="">Redeem</a></li>
+                <li class="has-dropdown"><a class="collapsed" data-bs-toggle="collapse" href="#submenu-2">How Mazadent Works</a>
+                    <ul id="submenu-2" class="submenu collapse">
+                        <li><a href="">Seat Auction Guide</a></li>
+                        <li><a href="">Ranks Guide</a></li>
+                        <li><a href="">Point System Guide</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown"><a class="collapsed" data-bs-toggle="collapse" href="#submenu-3">Redeem</a>
+                    <ul id="submenu-3" class="submenu collapse">
+                        <li><a href="">Seat Auction Guide</a></li>
+                        <li><a href="">Ranks Guide</a></li>
+                        <li><a href="">Point System Guide</a></li>
+                    </ul>
+                </li>
                 <li class="arabic-text"><a href="javascript:void(0)">حكم الشرع</a></li>
             </ul>
         </div>
 
-        <div class="off-menu-top">
-            <ul class="d-flex align-items-center">
-                <li class="balance-personal"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModalsignin">Sign in</a>/ <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModalregister">Register</a></li>
-                
-            </ul>    
-        </div>
+       
         <div class="flug-img mt-3">
-            <img src="assets/img/flug.svg" alt="">
+           <a href=""><img src="assets/img/flug.svg" alt=""></a> 
         </div>
 
     </div>
@@ -53,7 +68,7 @@
     <div class="overlay"></div>
 
     <!-- header-area -->
-    <header class="header-area home-v2">
+    <header class="header-area">
         <div class="container">
             <div class="header-wrapper d-flex align-items-center justify-content-between">
                 <!-- logo-area -->
@@ -68,7 +83,13 @@
                     <div class="main-menu d-none d-lg-block">
                         <nav>
                             <ul class="d-flex align-items-center">
-                                <li class="has-dropdown"><a href="">Auctions</a></li>
+                                <li class="has-dropdown"><a href="">Auctions</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Seat Auction Guide</a></li>
+                                        <li><a href="">Ranks Guide</a></li>
+                                        <li><a href="">Point System Guide</a></li>
+                                    </ul>
+                                </li>
                                 <li class="has-dropdown active"><a href="">How Mazadent Works</a>
                                     <ul class="submenu">
                                         <li><a href="">Seat Auction Guide</a></li>
@@ -76,8 +97,14 @@
                                         <li><a href="">Point System Guide</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="">Redeem</a></li>
-                                <li class="arabic-text"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModalotp">حكم الشرع</a></li>
+                                <li class="has-dropdown"><a href="">Redeem</a>
+                                    <ul class="submenu">
+                                        <li><a href="">Seat Auction Guide</a></li>
+                                        <li><a href="">Ranks Guide</a></li>
+                                        <li><a href="">Point System Guide</a></li>
+                                    </ul>
+                                </li>
+                                <li class="arabic-text"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">حكم الشرع</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -86,11 +113,12 @@
                     <!-- mwnu-right-area -->
                     <div class="menu-right d-none d-lg-block position-relative">
                         <ul class="d-flex align-items-center">
-                            <li class="balance-personal"><a href="" data-bs-toggle="modal" data-bs-target="#exampleModalsignin">Sign in</a>/ <a href="" data-bs-toggle="modal" data-bs-target="#exampleModalregister">Register</a></li>
-                            <li class="flug-img"><img src="assets/img/flug.svg" alt=""></li>
+                            <li><a href="">Drmoth42</a></li>
+                            <li class="balance-personal">Balance: 999</li>
+                            <li class="flug-img"><a href=""><img src="assets/img/flug.svg" alt=""></a></li>
                         </ul>
                     </div>
-                    <!-- mwnu-right-area_end -->    
+                    <!-- mwnu-right-area_end -->
 
                     <div class="mobile-menu-bar d-lg-none">
                         <span class="bar"><i class="far fa-bars"></i></span>
@@ -183,28 +211,82 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/pointer.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                            </div>
+                                            <!--hover items-end-->
+
+                                            <img src="assets/img/product.svg" alt="">
+                                        </div>
+                                        <div class="product-card-footer">
+                                            <ul>
+                                                <li><span>Ticket Price: </span><span class="list-info">10 EGP</span></li>
+                                                <li><span>Auction Date: </span><span class="list-info">02 June 2021</span></li>
+                                                <li><span>Auction Time: </span><span class="list-info">05:15 PM</span></li>
+                                            </ul>
+                                            <a href="" class="btn product-btn-1">View Auction</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <div class="card-wrapper">
+                                        <div class="product-card-header">
+                                            <h5>Endomotor Eighteeth</h5>
+                                        </div>
+                                        <div class="product-card-image position-relative">
+                                            <!--hover items-end-->
+                                            <span class="product-id">ID : 40</span>
+                                            <div class="hover-right-items">
+                                                <span><img src="assets/img/icons/icon-cheir.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover mobo-hover-left-top">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
                                                         <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
-                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/pointer.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -243,28 +325,25 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/pointer.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -294,7 +373,7 @@
                                             <div class="hover-right-items">
                                                 <span><img src="assets/img/icons/icon-cheir.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover innder-hover-left-top">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
                                                         <a href="" class="inner-btn">Learn More</a>
@@ -303,88 +382,25 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/pointer.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                            </div>
-                                            <!--hover items-end-->
-
-                                            <img src="assets/img/product.svg" alt="">
-                                        </div>
-                                        <div class="product-card-footer">
-                                            <ul>
-                                                <li><span>Ticket Price: </span><span class="list-info">10 EGP</span></li>
-                                                <li><span>Auction Date: </span><span class="list-info">02 June 2021</span></li>
-                                                <li><span>Auction Time: </span><span class="list-info">05:15 PM</span></li>
-                                            </ul>
-                                            <a href="" class="btn product-btn-1">View Auction</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="card-wrapper">
-                                        <div class="product-card-header">
-                                            <h5>Endomotor Eighteeth</h5>
-                                        </div>
-                                        <div class="product-card-image position-relative">
-                                            <!--hover items-end-->
-                                            <span class="product-id">ID : 40</span>
-                                            <div class="hover-right-items">
-                                                <span><img src="assets/img/icons/icon-cheir.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/camera.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/pointer.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/dollar.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -439,10 +455,53 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                            </div>
+                                            <!--hover items-end-->
+
+                                            <img src="assets/img/product.svg" alt="">
+                                        </div>
+                                        <div class="product-card-footer">
+                                            <ul>
+                                                <li><span>Original Price: </span><span>10,000 EGP</span></li>
+                                                <li><span>Current Bid: </span><span>Hagar 42</span></li>
+                                                <li><span>Current Price: </span><span></span></li>
+                                            </ul>
+                                            <div class="live-action">
+                                                <h3>500 EGP <span class="up-anim"><img src="assets/img/icons/arrow-up.svg" alt=""></span></h3>
+                                                <a href="" class="btn light-redbtn">05:03:15</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <div class="card-wrapper">
+                                        <div class="product-card-header">
+                                            <h5>Endomotor Eighteeth</h5>
+                                        </div>
+                                        <div class="product-card-image position-relative">
+                                            <!--hover items-end-->
+                                            <span class="product-id">ID : 40</span>
+                                            <div class="hover-right-items">
+                                                <span><img src="assets/img/icons/icon-cheir.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover mobo-hover-left-top">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
                                                         <a href="" class="inner-btn">Learn More</a>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -484,10 +543,9 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -520,7 +578,7 @@
                                             <div class="hover-right-items">
                                                 <span><img src="assets/img/icons/icon-cheir.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover innder-hover-left-top">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
                                                         <a href="" class="inner-btn">Learn More</a>
@@ -529,55 +587,9 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                            </div>
-                                            <!--hover items-end-->
-
-                                            <img src="assets/img/product.svg" alt="">
-                                        </div>
-                                        <div class="product-card-footer">
-                                            <ul>
-                                                <li><span>Original Price: </span><span>10,000 EGP</span></li>
-                                                <li><span>Current Bid: </span><span>Hagar 42</span></li>
-                                                <li><span>Current Price: </span><span></span></li>
-                                            </ul>
-                                            <div class="live-action">
-                                                <h3>500 EGP <span class="up-anim"><img src="assets/img/icons/arrow-up.svg" alt=""></span></h3>
-                                                <a href="" class="btn light-redbtn">05:03:15</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="card-wrapper">
-                                        <div class="product-card-header">
-                                            <h5>Endomotor Eighteeth</h5>
-                                        </div>
-                                        <div class="product-card-image position-relative">
-                                            <!--hover items-end-->
-                                            <span class="product-id">ID : 40</span>
-                                            <div class="hover-right-items">
-                                                <span><img src="assets/img/icons/icon-cheir.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/dollar.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -742,28 +754,82 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/pointer.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                            </div>
+                                            <!--hover items-end-->
+
+                                            <img src="assets/img/product.svg" alt="">
+                                        </div>
+                                        <div class="product-card-footer">
+                                            <ul>
+                                                <li><span>Ticket Price: </span><span class="list-info">10 EGP</span></li>
+                                                <li><span>Auction Date: </span><span class="list-info">02 June 2021</span></li>
+                                                <li><span>Auction Time: </span><span class="list-info">05:15 PM</span></li>
+                                            </ul>
+                                            <a href="" class="btn product-btn-1">View Auction</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <div class="card-wrapper">
+                                        <div class="product-card-header">
+                                            <h5>Endomotor Eighteeth</h5>
+                                        </div>
+                                        <div class="product-card-image position-relative">
+                                            <!--hover items-end-->
+                                            <span class="product-id">ID : 40</span>
+                                            <div class="hover-right-items">
+                                                <span><img src="assets/img/icons/icon-cheir.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover mobo-hover-left-top">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
                                                         <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
-                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/pointer.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
+                                                    </div>
+                                                    <!-- ancor-hover -->
+                                                </span>
+                                                <span><img src="assets/img/icons/dollar.svg" alt="">
+                                                    <!-- ancor-hover -->
+                                                    <div class="inner-hover inner-hover-center mobo-hover-left">
+                                                        <h6>Seat Auction</h6>
+                                                        <p>This Auction is a Seat Auction</p>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -802,28 +868,25 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/pointer.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-center">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -853,7 +916,7 @@
                                             <div class="hover-right-items">
                                                 <span><img src="assets/img/icons/icon-cheir.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover innder-hover-left-top">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
                                                         <a href="" class="inner-btn">Learn More</a>
@@ -862,88 +925,25 @@
                                                 </span>
                                                 <span><img src="assets/img/icons/camera.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/pointer.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
                                                 <span><img src="assets/img/icons/dollar.svg" alt="">
                                                     <!-- ancor-hover -->
-                                                    <div class="inner-hover">
+                                                    <div class="inner-hover inner-hover-left">
                                                         <h6>Seat Auction</h6>
                                                         <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                            </div>
-                                            <!--hover items-end-->
-
-                                            <img src="assets/img/product.svg" alt="">
-                                        </div>
-                                        <div class="product-card-footer">
-                                            <ul>
-                                                <li><span>Ticket Price: </span><span class="list-info">10 EGP</span></li>
-                                                <li><span>Auction Date: </span><span class="list-info">02 June 2021</span></li>
-                                                <li><span>Auction Time: </span><span class="list-info">05:15 PM</span></li>
-                                            </ul>
-                                            <a href="" class="btn product-btn-1">View Auction</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="card-wrapper">
-                                        <div class="product-card-header">
-                                            <h5>Endomotor Eighteeth</h5>
-                                        </div>
-                                        <div class="product-card-image position-relative">
-                                            <!--hover items-end-->
-                                            <span class="product-id">ID : 40</span>
-                                            <div class="hover-right-items">
-                                                <span><img src="assets/img/icons/icon-cheir.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/camera.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/pointer.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
-                                                    </div>
-                                                    <!-- ancor-hover -->
-                                                </span>
-                                                <span><img src="assets/img/icons/dollar.svg" alt="">
-                                                    <!-- ancor-hover -->
-                                                    <div class="inner-hover">
-                                                        <h6>Seat Auction</h6>
-                                                        <p>This Auction is a Seat Auction</p>
-                                                        <a href="" class="inner-btn">Learn More</a>
                                                     </div>
                                                     <!-- ancor-hover -->
                                                 </span>
@@ -975,7 +975,7 @@
     <!-- main-content -->
 
     <!-- footer-area -->
-    <footer class="footer-area bg-defult" style="background-image: url('assets/img/footer-bg.png');">
+    <footer class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-12">
@@ -1037,211 +1037,6 @@
 
 
 
-    <!-- custom-popup -->
-    <div class="modal fade popup-1" id="exampleModalsignin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="popup-wrapper d-flex flex-wrap">
-                    <!-- left-content -->
-                    <div class="welcome-text-wrapper">
-                        <div class="welcome-text-wrap">
-                            <h1>Welcome Back!</h1>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-                            <div class="popup-logo">
-                                <img src="assets/img/logo-popup.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- left-content -->
-
-
-                    <!-- popup-form-wrapper -->
-                    <div class="popup-form-wrapper">
-                        <div class="form-title">
-                            <h2>Sign In</h2>
-                        </div>
-
-                        <!-- popup-form -->
-                        <form>
-                            <!-- single-input -->
-                            <div class="single-form position-relative">
-                                <input type="text" placeholder="Email">
-                                <span class="input-icon"><img src="assets/img/envelope.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-                            <!-- single-input -->
-                            <div class="single-form position-relative">
-                                <input type="password" placeholder="Password">
-                                <span class="input-icon"><img src="assets/img/password.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-
-                            <div class="custom-check-box">
-                                <input type="checkbox" id="check-1">
-                                <label for="check-1"><span></span>Remember Me</label>
-                            </div>
-
-                            <div class="submit-btn-area text-center">
-                                <button class="btn submit-btn">Sign In</button>
-                            </div>
-
-                        </form>
-                        <!-- popup-form -->
-
-                        <div class="popup-bottom-text">
-                            <p>New to Mazadent ? <a href="">Sign Up</a> </p>
-                            <p>Forgot Your Password ?</p>
-                        </div>
-
-                    </div>
-                    <!-- popup-form-wrapper -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- custom-popup -->
-
-    <!-- custom-popup -->
-    <div class="modal fade popup-1 popup-sign-in" id="exampleModalregister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="popup-wrapper d-flex flex-wrap">
-                    <!-- left-content -->
-                    <div class="welcome-text-wrapper">
-                        <div class="welcome-text-wrap">
-                            <h1>Hello There!</h1>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-                            <div class="popup-logo">
-                                <img src="assets/img/logo-popup.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- left-content -->
-
-
-                    <!-- popup-form-wrapper -->
-                    <div class="popup-form-wrapper">
-                        <div class="form-title">
-                            <h2>Create an Account</h2>
-                        </div>
-
-                        <!-- popup-form -->
-                        <form>
-                            <!-- single-input -->
-                            <div class="single-form position-relative">
-                                <input type="email" placeholder="Email">
-                                <span class="input-icon"><img src="assets/img/envelope-2.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-
-                            <!-- single-input -->
-                            <div class="single-form position-relative">
-                                <input type="text" placeholder="Username">
-                                <span class="input-icon"><img src="assets/img/user.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-
-                            <!-- single-input -->
-                            <div class="single-form d-flex justify-content-between align-items-center position-relative">
-                                <input class="first-name" type="text" placeholder="First Name">
-                                <input class="last-name" type="text" placeholder="Last Name">
-                                <span class="input-icon"><img src="assets/img/head.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-
-                            <!-- single-input -->
-                            <div class="single-form position-relative">
-                                <input type="tel" placeholder="Phone Number">
-                                <span class="input-icon"><img src="assets/img/tell.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-
-                            <!-- single-input -->
-                            <div class="single-form position-relative">
-                                <input type="password" placeholder="Password">
-                                <span class="input-icon"><img src="assets/img/password-2.svg" alt=""></span>
-                            </div>
-                            <!-- single-input -->
-
-
-                            <div class="submit-btn-area text-center">
-                                <button class="btn submit-btn">Register</button>
-                            </div>
-
-                        </form>
-                        <!-- popup-form -->
-
-                        <div class="popup-bottom-text">
-                            <p>Already a member ? <a href="" data-bs-toggle="modal" data-bs-target="#exampleModalsignin">Sign In</a> </p>
-                        </div>
-
-                    </div>
-                    <!-- popup-form-wrapper -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- custom-popup -->
-
-    <!-- custom-popup -->
-    <div class="modal fade popup-1 otp-popup" id="exampleModalotp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="popup-wrapper d-flex flex-wrap">
-                    <!-- left-content -->
-                    <div class="welcome-text-wrapper">
-                        <div class="welcome-text-wrap">
-                            <h1>Hello There!</h1>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-                            <div class="popup-logo">
-                                <img src="assets/img/logo-popup.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- left-content -->
-
-
-                    <!-- popup-form-wrapper -->
-                    <div class="popup-form-wrapper">
-                        <div class="form-title">
-                            <h2>Verify Your Account</h2>
-                        </div>
-                        <div class="otp-wrapper">
-                            <div class="otp-text text-center">
-                                <p>Please enter the 4-digit code sent to your
-                                    phone number</p>
-                            </div>
-
-                            <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
-                                <input type="text" id="digit-1" name="digit-1" data-next="digit-2" />
-                                <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />
-                                <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />
-                                <input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />
-
-                                
-                            </form>
-                            <div class="submit-btn-area text-center">
-                                <button class="btn submit-btn">Verify</button>
-                            </div>
-
-                        </div>
-
-                        <div class="popup-bottom-text">
-                            <p>Didn't get a code ? <a href="">Resend Code</a> </p>
-                            <p>Change Phone number</p>
-                        </div>  
-
-                    </div>
-                    <!-- popup-form-wrapper -->
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- custom-popup -->
-
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -1249,8 +1044,8 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        $("header").sticky({topSpacing:0});
 
+        $("header").sticky({topSpacing:0});
 
         $('.digit-group').find('input').each(function() {
         $(this).attr('maxlength', 1);

@@ -9,9 +9,8 @@
         $(".offcanvas-wrapper, .overlay").removeClass("active");
     });
 
-
-    $(".off-menu ul li.has-dropdown a").click(function(){
-        $("#submenu").toggleClass("active");
+    $('.has-dropdown').click( function(e) {
+        $('.collapse').collapse('hide');
     });
 
 
